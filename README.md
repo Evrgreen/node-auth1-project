@@ -14,3 +14,15 @@ Guided project for **Node Auth 1** Module.
 - [ ] type `npm run server` to start the API.
 
 Please follow along as the instructor adds authentication to the API.
+
+
+## IMplement secure password storage.
+
+  -Never store passwords in plain text, hash them instead 
+      password-> 
+
+
+
+-> bcrypt.compareSync takes 2 arguments the first is the plain text password from the request and the second would be the 
+   hashed password from teh database.
+
